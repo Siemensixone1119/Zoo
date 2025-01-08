@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "product-sans";
-  src: url("/fonts/productsans.ttf") format("truetype");
+  src: url("./fonts/productsans.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "cocon";
-  src: url("/fonts/cocon_regular.otf") format("opentype");
+  src: url("./fonts/cocon_regular.otf") format("opentype");
 }
 
 /* переменные */
