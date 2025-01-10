@@ -1,18 +1,18 @@
 const arr = [
   {
-    src: "/image/reviews_image_1.jpg",
+    src: "./image/reviews_image_1.jpg",
     name: "Mba Jennie",
     grade: "4.5",
     comment: "“ Suka banget sama mas mas disini ramah ramah, anabulku jadi canteekk makin gemoy jadinya... “",
   },
   {
-    src: "/image/reviews_image_2.jpg",
+    src: "./image/reviews_image_2.jpg",
     name: "Jennie Mba",
     grade: "5.0",
     comment: "“ Pelayanan bagus banget, tempat bersих и nyaman, hasilnya memуaskan! “",
   },
   {
-    src: "/image/reviews_image_3.jpg",
+    src: "./image/reviews_image_3.jpg",
     name: "Maba Mebe",
     grade: "4.0",
     comment: "“ Harga terjangkau, staf ramah, и anabulku terlihat sangat senang terlihat sangat senang! “",

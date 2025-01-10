@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "product-sans";
-  src: url("/fonts/productsans.ttf") format("truetype");
+  src: url("./fonts/productsans.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "cocon";
-  src: url("/fonts/cocon_regular.otf") format("opentype");
+  src: url("./fonts/cocon_regular.otf") format("opentype");
 }
 
 /* переменные */
@@ -156,7 +156,7 @@ ul {
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url("/image/hero.jpg");
+  background-image: url("./image/hero.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -201,7 +201,7 @@ ul {
 
 .hero__decor {
   position: absolute;
-  top: 400px;
+  top: 470px;
   left: 270px;
 }
 
@@ -243,7 +243,7 @@ ul {
 /* описание */
 
 .description {
-  background-image: url("/image/description_bgc.jpg");
+  background-image: url("./image/description_bgc.jpg");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -518,7 +518,8 @@ ul {
 }
 
 .subscribe__input {
-  width: 1300px;
+  max-width: 2300px;
+  width: 90%;
   height: 150px;
   border-radius: 24px;
   border: 0px;
@@ -546,7 +547,7 @@ ul {
 .subscribe__submit-btn {
   position: absolute;
   top:3vh;
-  right: 17vw;
+  right: 7vw;
   font-weight: 400;
   font-size: 45px;
   padding: 27px 87px;
@@ -621,6 +622,7 @@ footer .logo__yellow {
 .foot__support {
   margin-left: 110px;
 }
+
 
 @media screen and (min-width: 1980px) {
   .h2 {
@@ -773,16 +775,6 @@ footer .logo__yellow {
   .subscribe__text {
     font-size: 35px;
   }
-
-  .subscribe__input {
-    width: 1600px;
-  }
-
-  @media screen and (min-width: 2400px) {
-    .subscribe__input {
-      width: 1850px;
-    }
-  }
 }
 
 @media screen and (max-width: 1979px) {
@@ -822,9 +814,6 @@ footer .logo__yellow {
     padding-bottom: 70px;
   }
 
-  .subscribe__submit-btn {
-    right: 9vw;
-  }
 }
 
 @media screen and (max-width: 1285px) {
@@ -958,10 +947,6 @@ footer .logo__yellow {
 
   /* рассылка */
 
-  .subscribe__input{
-    max-width: 1100px;
-  }
-
   .subscribe__input::placeholder{
     font-size: 35px;
   }
@@ -1006,22 +991,10 @@ footer .logo__black{
     display: none;
   }
 
-  .subscribe__input{
-    width: 1150px;
-  }
 }
 
-@media screen and (max-width: 1200px){
-  .subscribe__input{
-    width: 1000px;
-  }
-}
 
 @media screen and (max-width: 1100px){
-  .subscribe__input{
-    width: 900px;
-  }
-
   .subscribe__input::placeholder{
     font-size: 30px;
   }
